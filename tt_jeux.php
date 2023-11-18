@@ -3,9 +3,9 @@
 
 $nom=$_POST['nomjeux'];
 $description=$_POST['descriptionjeux'];
-$regle=$_POST['reglejeux'];
+$regle=$_FILES['userfileregle']['name'];
 $categorie=$_POST['categoriejeux'];
-$photo=$_FILES['userfile']['name'];//recupérer le nom de fichier
+$photo=$_FILES['userfilephoto']['name'];//recupérer le nom de fichier
 $fichierTemp=$_FILES['userfile']['tmp_name'];//recupérer le nom du fichier temporaire téléchargé sur le serveur.
 move_uploaded_file($fichierTemp,'./images/'.$photo);//transférer le fichier dans le dossier image du projet
 require_once("connpdo.php");

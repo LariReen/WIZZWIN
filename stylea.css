@@ -1,0 +1,85 @@
+p {
+  color: rgb(0, 0, 0);
+}
+
+h2 {
+    color: rgb(255, 255, 255);
+}
+h3 {
+    color: rgb(255, 255, 255);
+}
+body { 
+	font: 75% georgia, sans-serif;
+	line-height: 1.88889;
+	color: #ffffff; 
+    background: #ffffff url('https://images.unsplash.com/photo-1611996575749-79a3a250f948?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D') no-repeat; 
+    background-size: 100%;
+	margin: 0; 
+	padding: 0;
+
+}
+div.space{
+    margin:0px;
+    padding-left:200px;
+    padding-top: 200px;
+    padding-bottom: 150px;
+    padding-right: 150px;
+}
+.navbar-nav {
+    flex-direction: column;
+  }
+  
+  .navbar-nav .nav-item {
+    width: 100%; /* Ajustez la largeur selon vos besoins */
+    height:400%;
+    text-align: center; /* Centrez le texte dans chaque élément */
+  }
+  
+  .navbar-nav .nav-link {
+    padding: 10px; /* Ajoutez de l'espace autour du texte */
+  }
+ 
+  .sidebar {
+ 
+    height: 400%;
+    width: 100%;
+    top: 0px;
+    right: 30;
+    background-color: rgba(0, 0, 0, 0.1); /* Couleur bleue avec une opacité de 0.7 */
+    padding-top: 10px;
+  }
+ 
+  div.sidebar div.row.row{
+    background-color: rgba(224, 224, 224, 0.2); /* Couleur bleue avec une opacité de 0.7 */
+    margin:0px;
+    padding-bottom: 5px;
+    padding-right: 10px;
+    padding-left: 10px;
+    
+  }
+  .sidebar a {
+    padding: 16px;
+    text-decoration: none;
+    font-size: 18px;
+    color: #646161;
+    display: block;
+  }
+ 
+  .sidebar a:hover {
+    color: rgb(35, 13, 65);
+  }
+  .text {
+    margin-left: 10px; /* Ajoute une marge à gauche du texte */
+}
+.colonne-gauche {
+  float: left;
+  width: 50%;
+  padding: 20px;
+}
+
+/* Style de la colonne de droite */
+.colonne-droite {
+  float: right;
+  width: 50%;
+  padding: 20px;
+}

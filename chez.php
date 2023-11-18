@@ -15,9 +15,9 @@
 
 <?php
     if ($_SESSION['role'] == 1) {
-        echo "Vous êtes élève";
+        echo "Vous êtes membre";
     } else {
-        echo "Vous êtes enseignant PING";
+        echo "Vous êtes administrateur";
     }
 ?>
 </div>

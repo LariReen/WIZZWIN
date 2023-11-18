@@ -8,6 +8,7 @@
 </head>
 <body>
 <div class="container-fluid">
+<div class="row">
 <nav class="col-lg-1 navbar navbar-expand-md bg-dark border-right border-body" data-bs-theme="dark">
   <div class="container-fluid">
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
@@ -16,20 +17,18 @@
     <div class="collapse navbar-collapse" id="navbarText">
       <ul class="navbar-nav flex-column">
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="index.php">Accueil</a>
+          <a class="nav-link active" aria-current="page" href="admin.php">Accueil</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="inscription.php">Sign up</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="connexion.php">Log in</a>
+          <a class="nav-link" href="index.php">Log out</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="page.php">About us</a>
         </li>
       </ul>
     </div>
+  </div>
 </nav>
 </div>
+</div>
 </body>
-
