@@ -1,6 +1,9 @@
+<<<<<<< HEAD
 p {
   color: rgb(0, 0, 0);
 }
+=======
+>>>>>>> e096ef9248326038fd7fb9617b872d2af91dea5a
 
 h2 {
     color: rgb(255, 255, 255);
@@ -38,6 +41,7 @@ div.space{
   .navbar-nav .nav-link {
     padding: 10px; /* Ajoutez de l'espace autour du texte */
   }
+<<<<<<< HEAD
  
   .sidebar {
  
@@ -83,3 +87,6 @@ div.space{
   width: 50%;
   padding: 20px;
 }
+=======
+ 
+>>>>>>> e096ef9248326038fd7fb9617b872d2af91dea5a

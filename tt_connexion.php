@@ -41,7 +41,7 @@
                 {
                 $_SESSION['message'] = "Authentification réussi pour un membre.";
                 
-                header('Location: index.php');
+                header('Location: membre.php');//Redirection vers la page membre lorsque l'authentification est reussie
               }          
             
               }else { 
