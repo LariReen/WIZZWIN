@@ -34,7 +34,7 @@
     }
   }
   // Redirection vers la page d'accueil par exemple :
-  header('Location: index.php');
+  header('Location: listadmin.php');
 
 
 ?>

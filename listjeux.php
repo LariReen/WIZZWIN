@@ -1,21 +1,24 @@
 <?php 
-        
-    
 
     $titre = "Liste des jeux";
     include 'header.inc.php';
-    include 'menu.inc.php';
+    include 'menufoncadmin.php';
 
 ?>
 <div class="container">
-<h1>List des jeux</h1>
+<h2>List of gaming</h2>
+<video autoplay muted loop id="video-background">
+        <source src="./img/backvideo.mp4" type="video/mp4">
+    </video>
 
-
-<table class="table">
+<table class="table table-blue table-active table-hover">
   <thead>
     <tr>
       <th scope="col">ID</th>
       <th scope="col">Nom</th>
+      <th scope="col">Description</th>
+      <th scope="col">Regles</th>
+      <th scope="col">Categorie</th>
       <th scope="col">Photo</th>
       
   </thead>
@@ -35,7 +38,10 @@ $ps->execute();
     echo '<tr>';     
     echo  '<th scope="row">'.$row['ID_JEUX'].'</th>';
     echo'<td>'.$row['NOM_JEUX'].'</td>';
-    echo '<td><img src="images/'.$row['FILE'].'" width="100px" height="100px"></td>';
+    echo'<td>'.$row['DESCRIPTION'].'</td>'; 
+    echo '<td><img src="img/'.$row['FILE'].'" width="100px" height="100px"></td>';
+    echo'<td>'.$row['CATEGORIE'].'</td>';
+    echo '<td><img src="img/'.$row['FILE'].'" width="100px" height="100px"></td>';
     echo '</tr>';
   
 }

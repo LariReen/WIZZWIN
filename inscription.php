@@ -4,6 +4,9 @@
     include 'header.inc.php';
     include 'menu.inc.php';
 ?>
+<video autoplay muted loop id="video-background">
+        <source src="./img/backvideo.mp4" type="video/mp4">
+    </video>
 <div class="container">
 <h1>Sign up</h1>
 <form  method="POST" action="tt_inscription.php">

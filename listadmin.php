@@ -1,17 +1,17 @@
 <?php 
-        
-    
-
     $titre = "Liste des admininistrateurs";
     include 'header.inc.php';
     include 'menufoncadmin.php';
 
 ?>
 <div class="container">
-<h2>Liste des administrateurs</h2>
+<h2>List of administrator</h2>
+<video autoplay muted loop id="video-background">
+        <source src="./img/backvideo.mp4" type="video/mp4">
+    </video>
 
 
-<table class="table">
+<table class="table table-blue table-active table-hover">
   <thead>
     <tr>
       <th scope="col">ID</th>

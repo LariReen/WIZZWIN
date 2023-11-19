@@ -25,6 +25,9 @@
         unset($_SESSION['message']);
     }
     ?>
+    <video autoplay muted loop id="video-background">
+        <source src="./img/backvideo.mp4" type="video/mp4">
+    </video>
     <div class="colonne-gauche">
         <div class="space">
          <h2 class="text-center"> ~~~WIZZWIN~~~</h2>
@@ -85,11 +88,9 @@
                       </div>
                     </div>
             </div>
+   </div>
      </div>
-     </div>
-
 </body>
-
 <?php
     include 'footer.inc.php';
 ?>

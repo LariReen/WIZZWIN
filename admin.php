@@ -25,7 +25,10 @@
         unset($_SESSION['message']);
     }
 ?>
-         <h2 class="text-center">Administrateur</h2>
+<video autoplay muted loop id="video-background">
+        <source src="./img/backvideo.mp4" type="video/mp4">
+    </video>
+         <h2 class="text-center">Administrator</h2>
          <div class="container">
          <div class="row my-3">
              
@@ -39,11 +42,10 @@
 
             <div class="col-md-6">
             <button type="button" class="btn btn-outline-light"><a href="Ajoutjeux.php">Ajouter un jeu</a></button>
-            <!--<button type="button" class="btn btn-outline-light">Ajouter un jeu</button>-->
             </div>
             
              <div class="col-md-6">
-             <button type="button" class="btn btn-outline-light"><a href="Ajoutjeux.php">Modifier un jeu</a></button>  
+             <button type="button" class="btn btn-outline-light"><a href="Modifjeux.php">Modifier un jeu</a></button>  
              </div>
     
 
@@ -60,7 +62,7 @@
             </div>
 
             <div class="col-md-6">
-            <button type="button" class="btn btn-outline-light"><a href="Ajoutjeux.php">Liste des jeux</a></button>
+            <button type="button" class="btn btn-outline-light"><a href="listjeux.php">Liste des jeux</a></button>
             </div>
     
         </div>

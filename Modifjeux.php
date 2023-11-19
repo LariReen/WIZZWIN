@@ -1,11 +1,14 @@
 <?php 
 session_start();
-    $titre = "Ajout Jeux";
+    $titre = "Modification Jeux";
     include 'header.inc.php';
-    include 'menu.inc.php';
+    include 'menufoncadmin.php';
 ?>
 <div class="container">
-<h1>Modification d'un Jeux </h1>
+<h2>Modifying a game </h2>
+<video autoplay muted loop id="video-background">
+        <source src="./img/backvideo.mp4" type="video/mp4">
+    </video>
 <form  method="POST" action="tt_jeux.php" enctype="multipart/form-data">
     <div class="container">
     <div class="row my-3">
@@ -23,8 +26,7 @@ session_start();
             </div>
 
         </div>
-        <div class="row my-3">
-             
+        <div class="row my-3">    
         </div>
 
         <div class="row">
@@ -36,25 +38,22 @@ session_start();
 
             <div class="col-md-6">
                  <label for="reglejeux" class="form-label">Regles du jeux</label>
-                <input type="text" class="form-control " id="reglejeux" name="reglejeux" placeholder="Regles du jeux..." required>
+                 <input type="file" name="userfileregle" class="form-control" />
+                
             </div>
-    
+        </div>
+        <div class="row my-3">    
         </div>
 
         <div class="row">
 
             <div class="col-md-6">
                 <label  class="form-label">Ajout d'une photo </label>
-                <input type="file" name="userfile" class="form-control" />
+                <input type="file" name="userfilephoto" class="form-control" />
             </div>  
-           
-            <div class="col-md-6">
-               
-            </div>
-
+            
         </div>
-
-            <div class="row my-3"> 
+             <div class="row my-3"> 
              </div>
 
         <div class="row my-3">
@@ -69,3 +68,4 @@ session_start();
 <?php
     include 'footer.inc.php';
 ?>
+

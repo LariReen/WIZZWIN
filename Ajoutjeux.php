@@ -4,8 +4,11 @@ session_start();
     include 'header.inc.php';
     include 'menufoncadmin.php';
 ?>
+<video autoplay muted loop id="video-background">
+        <source src="./img/backvideo.mp4" type="video/mp4">
+    </video>
 <div class="container">
-<h1>Ajout d'un Jeux </h1>
+<h2>Adding a game </h2>
 <form  method="POST" action="tt_jeux.php" enctype="multipart/form-data">
     <div class="container">
     <div class="row my-3">
@@ -23,8 +26,7 @@ session_start();
             </div>
 
         </div>
-        <div class="row my-3">
-             
+        <div class="row my-3">    
         </div>
 
         <div class="row">
@@ -39,7 +41,8 @@ session_start();
                  <input type="file" name="userfileregle" class="form-control" />
                 
             </div>
-    
+        </div>
+        <div class="row my-3">    
         </div>
 
         <div class="row">
@@ -48,10 +51,6 @@ session_start();
                 <label  class="form-label">Ajout d'une photo </label>
                 <input type="file" name="userfilephoto" class="form-control" />
             </div>  
-           
-            <div class="col-md-6">
-               
-            </div>
 
         </div>
              <div class="row my-3"> 
