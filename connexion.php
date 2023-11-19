@@ -15,6 +15,9 @@ session_start();
         unset($_SESSION['message']);
     }
     ?>
+    <video autoplay muted loop id="video-background">
+        <source src="./img/backvideo.mp4" type="video/mp4">
+    </video>
 <form  method="POST" action="tt_connexion.php">
     <div class="container">
     <div class="row my-3">

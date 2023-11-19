@@ -1,15 +1,15 @@
 <?php
     session_start();
-    $titre = "Inscription";
+    $titre = "Inscription Administrateur";
     include 'header.inc.php';
     include 'menu.inc.php';
 ?>
+<div class="container">
 <video autoplay muted loop id="video-background">
         <source src="./img/backvideo.mp4" type="video/mp4">
     </video>
-<div class="container">
-<h1>Sign up</h1>
-<form  method="POST" action="tt_inscription.php">
+<h2>Creation of administrator</h2>
+<form  method="POST" action="tt_inscription_admin.php">
     <div class="container">
     <div class="row my-3">
         <div class="col-md-6">
@@ -32,11 +32,21 @@
         </div>
         </div>
         <div class="row my-3">
-        <div class="d-grid gap-2 d-md-block"><button class="btn btn-outline-primary" type="submit">Submit</button></div>   
+             </div>
+        <div class="row my-3">
+        <div class="d-grid gap-2 d-md-block">
+            <button class="btn btn-outline-primary" type="submit" name="submit">Submit</button>
+        </div>   
         </div>
     </div>
 </form>
 </div>
+<?php
+if(isset($_POST['submit']))
+{
+    
+}
+?>
 <?php
     include 'footer.inc.php';
 ?>

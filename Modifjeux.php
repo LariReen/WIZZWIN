@@ -1,14 +1,14 @@
 <?php 
 session_start();
-    $titre = "Ajout Jeux";
+    $titre = "Modification Jeux";
     include 'header.inc.php';
     include 'menufoncadmin.php';
 ?>
+<div class="container">
+<h2>Modifying a game </h2>
 <video autoplay muted loop id="video-background">
         <source src="./img/backvideo.mp4" type="video/mp4">
     </video>
-<div class="container">
-<h2>Adding a game </h2>
 <form  method="POST" action="tt_jeux.php" enctype="multipart/form-data">
     <div class="container">
     <div class="row my-3">
@@ -51,7 +51,7 @@ session_start();
                 <label  class="form-label">Ajout d'une photo </label>
                 <input type="file" name="userfilephoto" class="form-control" />
             </div>  
-
+            
         </div>
              <div class="row my-3"> 
              </div>
