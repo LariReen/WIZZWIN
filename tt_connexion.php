@@ -5,7 +5,7 @@
   
   $email =  htmlentities($_POST['email']);
   $password = htmlentities($_POST['password']);
-  
+
   // Connexion :
   require_once("param.inc.php");
   $mysqli = new mysqli($host, $login, $passwd, $dbname);
@@ -16,7 +16,7 @@
 
   
   
-  if ($stmt = $mysqli->prepare("SELECT password, role FROM user WHERE email=? limit 1")) 
+  if ($stmt = $mysqli->prepare("SELECT password, role, nom FROM user WHERE email=? limit 1")) 
   {
    
     $stmt->bind_param("s", $email);
@@ -29,8 +29,7 @@
             if (password_verify($password,$row["password"])) 
             {
                   // Redirection vers la page admin.php ou autres pages en fonction du role (tuteur,admin, etc.);
-
-                //$_SESSION['message'] = "Authentification réussi pour un role inconnu.";
+                  
                 if($row["role"]==2){
                   
                   $_SESSION['message'] = "Authentification réussi pour un admin.";
@@ -39,9 +38,9 @@
                 }
                 if($row["role"]==1)
                 {
-                $_SESSION['message'] = "Authentification réussi pour un membre.";
+                //$_SESSION['message'] = "Authentification réussi pour un membre.";
                 
-                header('Location: membre.php');//Redirection vers la page membre lorsque l'authentification est reussie
+                header('Location: membre1.php');//Redirection vers la page membre lorsque l'authentification est reussie
               }          
             
               }else { 

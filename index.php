@@ -24,7 +24,7 @@
             EVERYTHING FOR WIN
         </h3>
         <!--</div>-->
-    <div class="row">
+    <div class="row text-center">
            <div class="col">
             <img src="https://th.bing.com/th/id/OIP.dsj-FNB-NKJuDiZtWaWBGgHaHa?pid=ImgDet&rs=1" class="rounded img-thumbnail" alt="error in generating image" width="200" height="200">
             <p class="text-center">Solitaire</p>

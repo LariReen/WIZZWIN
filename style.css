@@ -1,14 +1,9 @@
 
-h2 {
-    color: rgb(255, 255, 255);
-}
-h3 {
-    color: rgb(255, 255, 255);
-}
+
 body { 
 	font: 75% georgia, sans-serif;
 	line-height: 1.88889;
-	color: #ffffff; 
+	color:#000000; 
     background: #ffffff url('https://images.unsplash.com/photo-1611996575749-79a3a250f948?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D') no-repeat; 
     background-size: 100%;
 	margin: 0; 
@@ -36,3 +31,5 @@ div.space{
     padding: 10px; /* Ajoutez de l'espace autour du texte */
   }
  
+
+
