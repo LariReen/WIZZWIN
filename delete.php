@@ -1,20 +1,32 @@
-<?php 
-$email=$_GET['email'];
-// Connexion :
+<?php
+session_start();
 require_once("param.inc.php");
+
+// Connexion :
 $mysqli = new mysqli($host, $login, $passwd, $dbname);
+
 if ($mysqli->connect_error) {
     die('Erreur de connexion (' . $mysqli->connect_errno . ') '
             . $mysqli->connect_error);
 }
-
-if ($stmt = $mysqli->prepare("DELETE FROM user WHERE email=?")) 
-{
+ else{
+  if(isset($_GET['ID_JEUX'])){
+    $id=$_GET['ID_JEUX'];
+ }
  
-  $stmt->bind_param("s", $email);
-  $stmt->execute();
-}
+//On fait la requête pour supprimer le jeu de la base de données  
+$sql = "DELETE FROM jeux WHERE ID_Jeux=?";
 
-header("location:list.php")
+ if(mysqli_query($mysqli, $sql )) {   
+   // echo'Suppression réussie;
+   header("location:listeJeux.php");
+   exit;
+} else{
+  echo "Erreur lors de la suppression : " . mysqli_error(mysql: $mysqli);
+}
+ }
+ 
+
+$mysqli->close();
 
 ?>

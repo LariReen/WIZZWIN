@@ -32,7 +32,7 @@
                   
                 if($row["role"]==2){
                   
-                  $_SESSION['message'] = "Authentification réussi pour un admin.";
+                  $_SESSION['message'] = "Authentification réussi pour un administrateur.";
 
                   header('Location: admin.php');
                 }
