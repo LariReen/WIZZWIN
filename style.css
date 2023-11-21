@@ -32,6 +32,7 @@ div.space{
   
   .navbar-nav .nav-link {
     padding: 10px; /* Ajoutez de l'espace autour du texte */
+    text-decoration: none;
   }
  
   .sidebar {
@@ -89,3 +90,70 @@ div.space{
   height: auto;
   z-index: -1; /* Place la vidéo derrière le contenu de la page */
 }
+
+
+  /*AJOUT CERISE//////////////////////////////////////////////////////////////////////////////////////////*/
+  /*body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+  margin-left: 10px;
+}*/
+
+section {
+  margin: 20px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 10px;
+}
+
+.jeux-section {
+display: flex;
+justify-content: space-around;
+flex-wrap:wrap;
+}
+
+.jeu {
+text-align: center;
+margin: 10px;
+}
+
+.jeu img {
+width: 10%; /* Ajustez la taille de l'image selon vos besoins */
+height: 10%;
+border-radius: 8px;
+}
+
+.btn-jouer {
+display: block;
+margin-top: 5px;
+padding: 5px 10px;
+background-color: #5f7bf8;
+color: white;
+text-decoration: none;
+border-radius: 4px;
+}
+
+.btn-jouer:hover {
+background-color: #5458d3;
+}
+
+/* Ajoutez d'autres styles selon vos besoins */

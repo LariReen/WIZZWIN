@@ -28,6 +28,7 @@
         $row = $result->fetch_assoc(); 
             if (password_verify($password,$row["password"])) 
             {
+              echo "2";
                   // Redirection vers la page admin.php ou autres pages en fonction du role (tuteur,admin, etc.);
                   
                 if($row["role"]==2){
@@ -38,9 +39,10 @@
                 }
                 if($row["role"]==1)
                 {
+                 
                 //$_SESSION['message'] = "Authentification réussi pour un membre.";
                 
-                header('Location: membre1.php');//Redirection vers la page membre lorsque l'authentification est reussie
+                header('Location: membre2.php');//Redirection vers la page membre lorsque l'authentification est reussie
               }          
             
               }else { 
