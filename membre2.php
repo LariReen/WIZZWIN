@@ -1,6 +1,7 @@
 <?php
     session_start();
     $titre = "Membre";
+
     include 'header.inc.php';
     include 'menumembre.php';
 ?>
@@ -13,11 +14,18 @@
             echo '</div>';
             unset($_SESSION['message']);
         }
+
+        require_once("param.inc.php");
+  $mysqli = new mysqli($host, $login, $passwd, $dbname);
+  if ($mysqli->connect_error) {
+      die('Erreur de connexion (' . $mysqli->connect_errno . ') '
+              . $mysqli->connect_error);
+  }
     ?>
 
     <div class="row">
         <header>
-            <h1>Bienvenue dans votre espace</h1>
+            <h1>Bienvenue dans votre espace <?php $nomjoueur ?></h1>
         </header>
 
         <section class="jeux-section">

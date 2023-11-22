@@ -1,4 +1,3 @@
-
 <div class="container-fluid">
 <div class="row">
 <nav class="col-lg-1 navbar navbar-expand-md bg-dark border-right border-body" data-bs-theme="dark">
@@ -9,7 +8,7 @@
     <div class="collapse navbar-collapse" id="navbarText">
       <ul class="navbar-nav flex-column">
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="index.php">Accueil</a>
+          <a class="nav-link active" aria-current="page" href="#">Accueil</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="index.php">Log out</a>

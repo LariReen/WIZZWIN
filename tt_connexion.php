@@ -5,6 +5,9 @@
   
   $email =  htmlentities($_POST['email']);
   $password = htmlentities($_POST['password']);
+  $_SESSION['nomjoueur'];
+ $_SESSION['email'];
+
 
   // Connexion :
   require_once("param.inc.php");
@@ -28,7 +31,9 @@
         $row = $result->fetch_assoc(); 
             if (password_verify($password,$row["password"])) 
             {
-              echo "2";
+                     $_SESSION['nomjoueur'] = $row["nom"];
+                     $_SESSION['email']= $email;
+
                   // Redirection vers la page admin.php ou autres pages en fonction du role (tuteur,admin, etc.);
                   
                 if($row["role"]==2){
