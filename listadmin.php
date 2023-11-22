@@ -5,7 +5,11 @@
 
 ?>
 <div class="container">
+<div class="row my-3">    
+        </div>
 <h2>List of administrator</h2>
+<div class="row my-3">    
+        </div>
 <video autoplay muted loop id="video-background">
         <source src="./img/backvideo.mp4" type="video/mp4">
     </video>

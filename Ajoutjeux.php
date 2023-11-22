@@ -8,6 +8,8 @@ session_start();
         <source src="./img/backvideo.mp4" type="video/mp4">
     </video>
 <div class="container">
+<div class="row my-3">    
+        </div>
 <h2>Adding a game </h2>
 <form  method="POST" action="tt_jeux.php" enctype="multipart/form-data">
     <div class="container">
@@ -68,4 +70,5 @@ session_start();
 <?php
     include 'footer.inc.php';
 ?>
+
 

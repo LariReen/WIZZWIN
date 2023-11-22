@@ -157,3 +157,25 @@ background-color: #5458d3;
 }
 
 /* Ajoutez d'autres styles selon vos besoins */
+
+.game-info {
+  font-size: 15px; /* Modifiez la taille de police selon vos besoins */
+  margin-bottom: 10px; /* Ajoutez de l'espace entre chaque élément du jeu */
+}
+
+.team-member {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.team-member img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.site-description {
+  text-align: center;
+  margin-top: 50px;
+}

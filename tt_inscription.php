@@ -27,10 +27,10 @@
     $stmt->bind_param("ssssi", $nom, $prenom, $email, $password, $role);
     // Le message est mis dans la session, il est préférable de séparer message normal et message d'erreur.
     if($stmt->execute()) {
-        $_SESSION['message'] = "Enregistrement réussi";
+        $_SESSION['message'] = "Vous venez de vous inscrire à WIZZWIN!!!";
 
     } else {
-        $_SESSION['message'] =  "Impossible d'enregistrer";
+        $_SESSION['message'] =  "Inscription non réalisé.Veuillez reprendre le processus.";
     }
   }
   // Redirection vers la page d'accueil par exemple :
