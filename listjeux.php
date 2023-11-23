@@ -56,7 +56,7 @@
               echo '</div>';
               echo '<div class="col-md-6">'; // Deuxième colonne pour la photo
               echo '<div class="game-photo">';
-              echo '<img src="img/' . $row['FILE'] . '" width="150px" height="150px">';
+              echo '<img src="./img/' . $row['FILE'] . '" width="150px" height="150px">';
               echo '</div>';
               echo '</div>';
               echo '</div>';

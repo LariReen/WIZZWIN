@@ -11,7 +11,7 @@ session_start();
 <div class="row my-3">    
         </div>
 <h2>Adding a game </h2>
-<form  method="POST" action="tt_jeux.php" enctype="multipart/form-data">
+<form  method="POST" action="tt_ajoutjeux.php" enctype="multipart/form-data">
     <div class="container">
     <div class="row my-3">
         <div class="row">

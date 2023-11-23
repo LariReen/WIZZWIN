@@ -2,7 +2,7 @@
     session_start();
     $titre = "Administrateur";
     include 'header.inc.php';
-    include 'menu.inc.php';
+    include 'menuadmin.php';
 ?>
 
 <!doctype html>
@@ -58,7 +58,7 @@
         <div class="row">
 
             <div class="col-md-6">
-             <button type="button" class="btn btn-outline-light"><a href="Ajoutjeux.php">Supprimer un jeu</a></button>  
+             <button type="button" class="btn btn-outline-light"><a href="Supprimejeux.php">Supprimer un jeu</a></button>  
             </div>
 
             <div class="col-md-6">
