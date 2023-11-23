@@ -4,11 +4,11 @@
     include 'menufoncadmin.php';
 
 ?>
-<div class="container">
-<div class="row my-3">    
+<div class="displayAdmin">
+<div class="row">    
         </div>
 <h2>List of administrator</h2>
-<div class="row my-3">    
+<div class="row ">    
         </div>
 <video autoplay muted loop id="video-background">
         <source src="./img/backvideo.mp4" type="video/mp4">

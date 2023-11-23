@@ -1,5 +1,11 @@
 <?php
     session_start();
+    // Vérifier si la session est active
+if (!isset($_SESSION['nomjoueur'])) {
+    // Rediriger vers la page de connexion si la session n'est pas active
+    header("Location: index.php");
+    exit();
+}
     $titre = "Jeu";
    // $nom= htmlentities($_POST['nomjeux']);
     $nom= "Uno";

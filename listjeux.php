@@ -5,28 +5,13 @@
     include 'menufoncadmin.php';
 
 ?>
-<!doctype html>
-    <html lang="fr">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title><?php echo $titre;?></title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
-    <link rel="stylesheet" href="style.css">
-  </head>
-  <body>
-  <video autoplay muted loop id="video-background">
-        <source src="./img/backvideo.mp4" type="video/mp4">
-    </video>
-    <div class="container">
-    <div class="row my-3">    
+
+    <div class="displayAdmin">
+    <div class="row">    
         </div>
   
     <h2>List of gaming</h2>
-    <div class="row my-3">    
+    <div class="row">    
         </div>
      
 

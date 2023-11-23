@@ -1,33 +1,94 @@
-p {
-  color: rgb(0, 0, 0);
-}
+
 
 
 body { 
 	font: 75% georgia, sans-serif;
 	line-height: 1.88889;
-	color: #ffffff; 
-  background: #ffffff url('https://images.unsplash.com/photo-1611996575749-79a3a250f948?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D') no-repeat; 
-  background-size: 100%;
-	margin: 0; 
-	padding: 0;
+  background: #ffffff; 
+/*	color: #000000; */
+	margin: 0px; 
+	padding: 0px;
 
 }
-div.space{
+div.WelcomeMessage{
+    color: #ecf4e6; 
+    background: rgb(237, 109, 179) url("img/2c4a44f5633039066de9ba6dd8f04b0e.jpg") no-repeat; 
     margin:0px;
+    background-size: 100%;
     padding-left:200px;
     padding-top: 200px;
     padding-bottom: 150px;
     padding-right: 150px;
 }
-.navbar-nav {
+div.backgroundInscription{
+  background : rgb(237, 109, 179) url("img/2c4a44f5633039066de9ba6dd8f04b0e.jpg") no-repeat; 
+  width: 100%;
+  height:100%;
+  padding:0;
+  margin:0;
+  background-size: 100%;
+}
+
+div.displayConnexion{
+  background : rgb(237, 109, 179) url("img/2c4a44f5633039066de9ba6dd8f04b0e.jpg") no-repeat; 
+  width: 100%;
+  height:100%;
+  padding:0;
+  margin:0;
+  background-size: 100%;
+}
+
+div.displayMembre{
+  background : rgb(237, 109, 179) url("img/2c4a44f5633039066de9ba6dd8f04b0e.jpg") no-repeat; 
+  width: 100%;
+  height:100%;
+  padding:0;
+  margin:0;
+  background-size: 100%;
+}
+
+div.displayAdmin{
+  background : rgb(237, 109, 179) url("img/2c4a44f5633039066de9ba6dd8f04b0e.jpg") no-repeat; 
+  width: 100%;
+  height:100%;
+  padding:0;
+  margin:0;
+  background-size: 100%;
+}
+
+
+div.row{
+  width: 100%;
+  height:100%;
+  padding:0;
+  margin:0;
+}
+div.gameDisplay{
+  padding-top: 100px;
+  padding-bottom: 85px;
+
+}
+div.displayVision{
+  padding-top: 40px;
+  padding-bottom: 100px;
+  padding-left: 300px;
+  padding-right: 300px;
+  background-color: rgba(245, 106, 182, 0.3);
+}
+
+div.gameDisplay img{
+  width: 100%; /* Ajustez la taille de l'image selon vos besoins */
+  height: 100%;
+  border-radius: 100%;
+}
+/*.navbar-nav {
     flex-direction: column;
-  }
+  }r*/
   
   .navbar-nav .nav-item {
     width: 100%; /* Ajustez la largeur selon vos besoins */
-    height:400%;
-    text-align: center; /* Centrez le texte dans chaque élément */
+    height:100%;
+    text-align:center ; /* Centrez le texte dans chaque élément */
   }
   
   .navbar-nav .nav-link {
@@ -45,6 +106,10 @@ div.space{
     padding-top: 10px;
   }
  
+#responsive{
+  padding:0;
+}
+
   div.sidebar div.row.row{
     background-color: rgba(224, 224, 224, 0.2); /* Couleur bleue avec une opacité de 0.7 */
     margin:0px;
@@ -67,18 +132,18 @@ div.space{
   .text {
     margin-left: 10px; /* Ajoute une marge à gauche du texte */
 }
-.colonne-gauche {
+/*.colonne-gauche {
   float: left;
   width: 50%;
   padding: 20px;
-}
+}*/
 
-/* Style de la colonne de droite */
+/* Style de la colonne de droite 
 .colonne-droite {
   float: right;
   width: 50%;
   padding: 20px;
-}
+}*/
 
 #video-background {
   position: fixed;
@@ -178,4 +243,25 @@ background-color: #5458d3;
 .site-description {
   text-align: center;
   margin-top: 50px;
+}
+
+
+footer.pink-background{
+  padding-top: 50px;
+  background-color: rgb(108, 34, 74);
+  padding-bottom: 50px; 
+  color: #ecf4e6;
+
+
+}
+footer.pink-background img{
+  width: 50%; /* Ajustez la taille de l'image selon vos besoins */
+  height: 100%;
+  border-radius: 100%;
+}
+
+/* Dans votre fichier de style CSS */
+.bg-rose {
+  background-color: rgb(108, 34, 74);  /*Remplacez cette couleur par la teinte de rose de votre choix */
+
 }

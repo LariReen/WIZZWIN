@@ -3,25 +3,15 @@
     $titre = "Inscription";
     include 'header.inc.php';
     include 'menu.inc.php';
+    
 ?>
-<!doctype html>
-    <html lang="fr">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title><?php echo $titre;?></title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css">
-  </head>
-  <body>
-<video autoplay muted loop id="video-background">
-    <source src="./img/backvideo.mp4" type="video/mp4">
-</video>
+
+<div class="backgroundInscription">
 <div class="container">
 <h1>Sign up</h1>
 <form  method="POST" action="tt_inscription.php">
     <div class="container">
-    <div class="row my-3">
+    <div class="row">
         <div class="col-md-6">
             <label for="nom" class="form-label">Surname</label>
             <input type="text" class="form-control " id="nom" name="nom" placeholder="Your surname..." required>
@@ -41,13 +31,20 @@
             <input type="password" class="form-control " id="password" name="password" placeholder="Your password..." required>
         </div>
         </div>
-        <div class="row my-3">
+        <div class="row">
         <div class="d-grid gap-2 d-md-block"><button class="btn btn-outline-primary" type="submit">Submit</button></div>   
+        </div>
+        <div class="row">
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
         </div>
     </div>
 </form>
 </div>
-</body>
+</div>
 <?php
     include 'footer.inc.php';
 ?>

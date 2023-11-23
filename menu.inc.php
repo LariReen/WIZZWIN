@@ -1,35 +1,25 @@
-<!doctype html>
-<html lang="fr">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>wizzwin website</title>
-    <link rel="stylesheet" href="stylea.css">
-</head>
-<body>
-<div class="container-fluid">
-<nav class="col-lg-1 navbar navbar-expand-md bg-dark border-right border-body" data-bs-theme="dark">
-  <div class="container-fluid">
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarText">
-      <ul class="navbar-nav flex-column">
-        <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="index.php">Accueil</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="inscription.php">Sign up</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="connexion.php">Log in</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="page.php">About us</a>
-        </li>
-      </ul>
-    </div>
-</nav>
-</div>
-</body>
-
+<nav class="navbar navbar-expand-md navbar-dark bg-rose">
+        <div class="container">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-between" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item active">
+                        <a class="nav-link active" aria-current="page" href="index.php">Home</a>
+                    </li>
+                </ul>
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="inscription.php">Sign in</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="connexion.php">Log in</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="aboutUs.php">About us</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>

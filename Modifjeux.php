@@ -1,14 +1,18 @@
 <?php 
 session_start();
+// Vérifier si la session est active
+if (!isset($_SESSION['nomjoueur'])) {
+    // Rediriger vers la page de connexion si la session n'est pas active
+    header("Location: index.php");
+    exit();
+}
     $titre = "Modification Jeux";
     include 'header.inc.php';
     include 'menufoncadmin.php';
 ?>
-<div class="container">
+<div class="displayAdmin">
 <h2>Modifying a game </h2>
-<video autoplay muted loop id="video-background">
-        <source src="./img/backvideo.mp4" type="video/mp4">
-    </video>
+
 <form  method="POST" action="tt_jeux.php" enctype="multipart/form-data">
     <div class="container">
     <div class="row my-3">

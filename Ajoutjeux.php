@@ -1,14 +1,18 @@
 <?php 
 session_start();
+// Vérifier si la session est active
+if (!isset($_SESSION['nomjoueur'])) {
+    // Rediriger vers la page de connexion si la session n'est pas active
+    header("Location: index.php");
+    exit();
+}
     $titre = "Ajout Jeux";
     include 'header.inc.php';
     include 'menufoncadmin.php';
 ?>
-<video autoplay muted loop id="video-background">
-        <source src="./img/backvideo.mp4" type="video/mp4">
-    </video>
-<div class="container">
-<div class="row my-3">    
+
+<div class="displayAdmin">
+<div class="row ">    
         </div>
 <h2>Adding a game </h2>
 <form  method="POST" action="tt_jeux.php" enctype="multipart/form-data">
@@ -28,7 +32,7 @@ session_start();
             </div>
 
         </div>
-        <div class="row my-3">    
+        <div class="row ">    
         </div>
 
         <div class="row">
@@ -44,7 +48,7 @@ session_start();
                 
             </div>
         </div>
-        <div class="row my-3">    
+        <div class="row ">    
         </div>
 
         <div class="row">
@@ -55,10 +59,10 @@ session_start();
             </div>  
 
         </div>
-             <div class="row my-3"> 
+             <div class="row"> 
              </div>
 
-        <div class="row my-3">
+        <div class="row">
             <div class="d-grid gap-2 d-md-block">
                 <button class="btn btn-outline-primary" type="submit">Ajouter</button>
             </div>  
