@@ -54,7 +54,7 @@ if (!isset($_SESSION['nomjoueur'])) {
         <div class="row">
 
             <div class="col-md-6">
-             <button type="button" class="btn btn-outline-light"><a href="Ajoutjeux.php">Supprimer un jeu</a></button>  
+             <button type="button" class="btn btn-outline-light"><a href="Supprimejeux.php">Supprimer un jeu</a></button>  
             </div>
 
             <div class="col-md-6">

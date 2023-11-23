@@ -31,7 +31,7 @@
             <input type="password" class="form-control " id="password" name="password" placeholder="Your password..." required>
         </div>
         </div>
-        <div class="row">
+        <div class="row ">
         <div class="d-grid gap-2 d-md-block"><button class="btn btn-outline-primary" type="submit">Submit</button></div>   
         </div>
         <div class="row">
