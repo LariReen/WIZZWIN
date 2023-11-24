@@ -27,10 +27,10 @@
     $stmt->bind_param("ssssi", $nom, $prenom, $email, $password, $role);
     // Le message est mis dans la session, il est préférable de séparer message normal et message d'erreur.
     if($stmt->execute()) {
-        $_SESSION['message'] = "Enregistrement réussi";
+        $_SESSION['message'] = "Enregistrement succeed";
 
     } else {
-        $_SESSION['message'] =  "Impossible d'enregistrer";
+        $_SESSION['message'] =  "Impossible to register";
     }
   }
   // Redirection vers la page d'accueil par exemple :

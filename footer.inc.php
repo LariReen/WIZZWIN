@@ -5,13 +5,13 @@
                     <img src="img/W.png" alt="impossible de telecharger l'image">
                     </div>
                 <div class="col-md-3">
-                    <h3>Contact</h3>
-                    <p>Adresse : 123 Rue de l'Exemple, Ville</p>
+                    <h3>Contacts</h3>
+                    <p>Adress : 123 Rue de l'Exemple, Ville</p>
                     <p>Email : contact@example.com</p>
-                    <p>Téléphone : +01 234 567 890</p>
+                    <p>Tél : +33 234 567 890</p>
                 </div>
                 <div class="col-md-3">
-                    <h3 class="text-center">Suivez-nous</h3>
+                    <h3 class="text-center">Follow Us</h3>
                     <ul class="social-icons">
                         <li><a href="#"> Instagram</a></li>
                         <li><a href="#">Twitter</a></li>
@@ -24,7 +24,7 @@
             </div>
             <div class="row">
               <p class="text-center">
-                  Copyright © 2023 WIZZWIN Inc. Tous droits réservés
+                  Copyright © 2023 WIZZWIN Inc. All rights reserved.
               </p>
             </div>
 </footer>

@@ -6,7 +6,7 @@
   $email =  htmlentities($_POST['email']);
   $password = htmlentities($_POST['password']);
   $_SESSION['nomjoueur'];
- $_SESSION['email'];
+  $_SESSION['email'];
 
 
   // Connexion :
@@ -38,7 +38,7 @@
                   
                 if($row["role"]==2){
                   
-                  $_SESSION['message'] = "Authentification réussi pour un administrateur.";
+                  $_SESSION['message'] = "Authentification succeed.";
 
                   header('Location: admin.php');
                 }

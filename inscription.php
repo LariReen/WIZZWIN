@@ -9,6 +9,7 @@
 <div class="backgroundInscription">
 <div class="container">
 <h1>Sign up</h1>
+<br>
 <form  method="POST" action="tt_inscription.php">
     <div class="container">
     <div class="row">
@@ -25,10 +26,14 @@
         <div class="col-md-6">
             <label for="email" class="form-label">Email</label>
             <input type="email" class="form-control " id="email" name="email" placeholder="Your email..." required>
+            <p>Your email must be in the following format: xxxx@nomdedomaine.com</p>
         </div>
         <div class="col-md-6">
             <label for="password" class="form-label">password</label>
             <input type="password" class="form-control " id="password" name="password" placeholder="Your password..." required>
+            <p>The password must be at least 8 characters long.. <br>It must contain at least one uppercase letter, one lowercase letter, one digit, and one special character.
+            </p>
+
         </div>
         </div>
         <div class="row ">

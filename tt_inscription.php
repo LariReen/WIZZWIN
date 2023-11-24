@@ -7,17 +7,16 @@ function validateCredentials($email, $password) {
 
     // Validation de l'email
     if (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
-        $errors[] = "L'adresse email n'est pas valide.";    }
+        $errors[] = "The email address is not valid ";    }
 
     // Validation du mot de passe
     if (strlen($password) < 8) {
-        $errors['message'] = "Le mot de passe doit contenir au moins 8 caractères.";
+        $errors['message'] = "The password must be at least 8 characters long..";
        // $_SESSION['message'] = "Vous venez de vous inscrire à WIZZWIN!!!";
     } else {
       // Validez la complexité (lettres majuscules, minuscules, chiffres, caractères spéciaux)
       if (!preg_match('/^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[\W_])[A-Za-z\d\W_]+$/', $password)) {
-        $errors['message'] = "Le mot de passe doit contenir au moins une lettre majuscule, une lettre minuscule, un chiffre et un caractère spécial.";
-     } 
+        $errors['message'] = "The password must contain at least one uppercase letter, one lowercase letter, one digit, and one special character.";  } 
  }
 
     // Vous pouvez ajouter d'autres validations du mot de passe ici
@@ -71,9 +70,9 @@ if ($stmt = $mysqli->prepare("INSERT INTO user(nom, prenom, email, password, rol
 
     // Exécuter la requête SQL
     if ($stmt->execute()) {
-        $_SESSION['message'] = "Vous venez de vous inscrire à WIZZWIN!!!";
+        $_SESSION['message'] = "Welcome to the WIZZWIN experience";
     } else {
-        $_SESSION['message'] = "Inscription non réalisée. Veuillez reprendre le processus.";
+        $_SESSION['message'] = "Inscription failed, please try again";
     }
 
     // Fermer la requête

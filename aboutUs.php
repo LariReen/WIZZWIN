@@ -17,8 +17,7 @@
             <div class="col-md-4">
                 <div class="site-description">
                     <p class="text-center">
-                    Nous sommes deux étudiantes de l'ESIGELEC qui avons plongé dans une opportunité passionnante. Animées par notre amour des jeux de société ou de plateau, nous avons développé une plateforme permettant aux membres de choisir leurs jeux préférés et de planifier des rencontres.  WIZZWIN est une aventure créative a libéré notre esprit innovant, transformant une simple demande en une source d'inspiration pour la communauté. Aujourd'hui, notre site est le lieu vibrant où la passion se partage. Chaque ligne de code et chaque interaction portent l'empreinte de notre émotion, tout en nous offrant de nouveaux défis, compétences et une fierté immense dans l'accomplissement de notre projet.
-                    </p>
+                    We are two students from ESIGELEC who have delved into an exciting opportunity. Driven by our love for board games, we have developed a platform that allows members to choose their favorite games and plan gatherings. WIZZWIN is a creative adventure that has unleashed our innovative spirit, transforming a simple idea into a source of inspiration for the community. Today, our site is the vibrant space where passion is shared. Every line of code and every interaction bears the imprint of our emotion, offering us new challenges, skills, and immense pride in the accomplishment of our project                    </p>
                 </div>
             </div>
 

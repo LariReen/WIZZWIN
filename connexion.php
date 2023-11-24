@@ -8,7 +8,10 @@ session_start();
 <div class="displayConnexion">
  <div class="container">
 
-<h1>Connexion</h1>
+<h1>Log in</h1>
+<br>
+<h4>Embark on a WIZZtastic journey where every click is a chance to win excitement</h4>
+<br><br>
 <?php
     if(isset($_SESSION['message'])) {
         echo '<div class="alert alert-primary alert-dismissible fade show" role="alert">';
@@ -32,8 +35,10 @@ session_start();
             <input type="password" class="form-control " id="password" name="password" placeholder="Votre mot de passe..." required>
         </div>
         </div>
+        <br>
         <div class="row my-3">
-        <div class="d-grid gap-2 d-md-block"><button class="btn btn-outline-primary" type="submit">Connexion</button></div>   
+        <br><br>
+        <div class="d-grid gap-2 d-md-block"><br><button class="btn btn-outline-primary" type="submit">Connexion</button></div>   
         </div>
     </div>
 </form>

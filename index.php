@@ -18,8 +18,8 @@
 <div class="row">
         <div class="row" >
            <div class="WelcomeMessage">
-           <h2 class="text-center"> ~~~WIZZWIN~~~</h2>
-           <h3 class="text-center">Everything for win! </h3>
+           <h1 class="text-center"> ~~~WIZZWIN~~~</H1>
+           <h3 class="text-center">Unlock the Fun, Win the WIZZ!</h3>
           </div>
         </div>
         <div class="gameDisplay">
@@ -68,24 +68,22 @@
      </div> 
      <div class="displayVision">
      <div class="row">
-      <h2 class="text-center">~~VISION ET AMBITIONS~~</h2>
+      <h2 class="text-center">~~VISION AND AMBITIONS~~</h2>
       <br>
       <br>
       <br>
         <div class="row">
           <div class="col">
           <p> 
-          "Notre vision chez [Nom de votre entreprise] transcende le simple concept de divertissement en ligne. Nous aspirons à créer un univers de jeu dynamique et captivant qui transcende les attentes traditionnelles. Chez [Nom de votre entreprise], nous sommes motivés par l'idée de repousser constamment les frontières de l'innovation, de fournir à nos joueurs une expérience exceptionnelle qui va au-delà de l'ordinaire. C'est dans cette quête continue que notre ambition prend forme, avec le développement imminent d'une application dédiée, conçue pour transformer la façon dont vous vivez le jeu en ligne.      
-          L'objectif de notre application va bien au-delà d'être une simple extension de notre site web. Nous envisageons un compagnon virtuel qui vous accompagnera partout, apportant une accessibilité sans précédent, une jouabilité intuitive et des fonctionnalités exclusives à portée de main. Cette application incarnera notre engagement envers l'innovation,      
-        </p>
-          </div>
+          "At WIZZWIN.Inc, our vision goes beyond the mere concept of online entertainment. We aspire to create a dynamic and engaging gaming universe that transcends traditional expectations. Driven by the idea of constantly pushing the boundaries of innovation, we aim to provide our players with an extraordinary experience that goes beyond the ordinary. It is in this ongoing quest that our ambition takes shape, with the imminent development of a dedicated application designed to transform how you experience online gaming. The goal of our application extends far beyond being a mere extension of our website. We envision a virtual companion that accompanies you everywhere, bringing unprecedented accessibility, intuitive gameplay, and exclusive features at your fingertips.         
+          </p>
+        </div>
           <div class="col">
             <p>
-            offrant une expérience de jeu immersive et personnalisée qui évolue avec les besoins de notre communauté passionnée. Notre équipe dévouée travaille sans relâche pour créer une application qui reflète non seulement notre amour pour les jeux de société, mais aussi notre engagement envers la satisfaction de nos utilisateurs. 
+            This application will embody our commitment to innovation, offering an immersive and personalized gaming experience that evolves with the needs of our passionate community. Our dedicated team works tirelessly to create an application that reflects not only our love for board games but also our commitment to user satisfaction.            
             <br>
             <br>
-            Joignez-vous à nous dans cette aventure où l'innovation, la convivialité et le plaisir se conjuguent pour créer une nouvelle ère de divertissement ludique. Chez [Nom de votre entreprise], nous ne nous contentons pas de redéfinir les règles du jeu, nous créons un nouveau chapitre de l'histoire du divertissement en ligne, et nous sommes ravis de vous y inviter."
-          </p>
+            Join us on this adventure where innovation, friendliness, and fun come together to create a new era of playful entertainment. At WIZZWIN.Inc, we don't just redefine the rules of the game; we're creating a new chapter in the history of online entertainment, and we're excited to invite you to be a part of it."          </p>
           </div>
         </div>
       

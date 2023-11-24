@@ -33,11 +33,12 @@ if (!isset($_SESSION['nomjoueur'])) {
 
     <div class="row">
         <header>
-            <h1>Bienvenue dans votre espace <?php $nomjoueur ?></h1>
+            <h1>Welcome to the WIZZWIN experience... <?php $nomjoueur ?></h1>
+         <br>
         </header>
 
         <section class="jeux-section">
-        <h2 class="text-center">Liste des jeux</h2>
+        <h2>Games you can play</h2>
         <br>
         <br>
         <br>
@@ -96,7 +97,7 @@ if (!isset($_SESSION['nomjoueur'])) {
     <br>
     <div class="row">
         <header>
-            <h1>Les parties de jeux a venir</h1>
+            <h1>Next play Dates</h1>
         </header>
 
         <section class="jeux-section">
