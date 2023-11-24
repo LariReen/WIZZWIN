@@ -33,12 +33,12 @@ if (!isset($_SESSION['nomjoueur'])) {
 
     <div class="row">
         <header>
-            <h1>Welcome to the WIZZWIN experience... <?php $nomjoueur ?></h1>
+            <h1  class="white-text">Welcome to the WIZZWIN experience... <?php $nomjoueur ?></h1>
          <br>
         </header>
 
         <section class="jeux-section">
-        <h2>Games you can play</h2>
+        <h2  class="white-text">Games you can play</h2>
         <br>
         <br>
         <br>
@@ -58,8 +58,8 @@ if (!isset($_SESSION['nomjoueur'])) {
               echo '<div class="carousel-item' . ($firstItem ? ' active' : '') . '">';
               echo '<div class="mx-auto">';
               echo '<div class="row">'; // Nouvelle ligne
-              echo '<div class="col-md-6">'; // Première colonne pour les caractéristiques
-              echo '<div class="game-info">'; 
+              echo '<div class="col-md-8">'; // Première colonne pour les caractéristiques
+              echo '<div class="game-info text-center">'; 
               echo 'ID: ' . $row['ID_JEUX'] . '<br>';
               echo 'Nom: ' . $row['NOM_JEUX'] . '<br>';
               echo 'Description: ' . $row['DESCRIPTION'] . '<br>';
@@ -67,7 +67,7 @@ if (!isset($_SESSION['nomjoueur'])) {
               echo 'Catégorie: ' . $row['CATEGORIE'] . '<br>';
               echo '</div>';
               echo '</div>';
-              echo '<div class="col-md-6">'; // Deuxième colonne pour la photo
+              echo '<div class="col-md-4">'; // Deuxième colonne pour la photo
               echo '<div class="game-photo">';
               echo '<img src="img/' . $row['FILE'] . '" width="150px" height="150px">';
               echo '</div>';
@@ -97,11 +97,16 @@ if (!isset($_SESSION['nomjoueur'])) {
     <br>
     <div class="row">
         <header>
-            <h1>Next play Dates</h1>
+            <h1  class="white-text">Next play Dates</h1>
         </header>
 
         <section class="jeux-section">
-        <h2>Liste des crenaux</h2>
+        <h2  class="white-text">Liste des crenaux</h2>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
         <br>
         
        </section>

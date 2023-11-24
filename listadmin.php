@@ -8,7 +8,7 @@
   <div class="container">
 <div class="row">    
         </div>
-<h2>List of administrator</h2>
+<h3 class="white-text">List of administrator</h3>
 <div class="row ">    
         </div>
 
