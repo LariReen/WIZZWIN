@@ -14,7 +14,7 @@
         unset($_SESSION['message']);
      }
  ?>
-
+ 
 <div class="row">
         <div class="row" >
            <div class="WelcomeMessage">
@@ -36,7 +36,7 @@
            </div>
            <div class="col-3">
              <div class="row">
-                <img src="https://vulcan.dl.playstation.net/ap/rnd/202111/1601/Zgk7R0ZUTp64t9JqNQIEsLYC.png" alt="error in generating image" >
+                <img src="https://www.maxiapple.com/wp-content/uploads/2023/04/monopoly-go-jeu-mobile-ios-android-iphone-ipad-gratuit-01.jpg" alt="error in generating image" >
               </div>
               <div class="row">
                 <br>

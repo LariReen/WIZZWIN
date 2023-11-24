@@ -14,13 +14,11 @@ session_start();
     <link rel="stylesheet" href="style.css">
   </head>
   <body>
-<video autoplay muted loop id="video-background">
-        <source src="./img/backvideo.mp4" type="video/mp4">
-    </video>
+
 <div class="container">
 <div class="row my-3">    
 </div>
-<h3>Deletion of game </h3>
+<h3 class="white-text">Deletion of game </h3>
 <form  method="POST" action="tt_supprimejeux.php" enctype="multipart/form-data">
     <div class="container">
     <div class="row my-3">

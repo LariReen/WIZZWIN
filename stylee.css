@@ -81,10 +81,12 @@ div.gameDisplay img{
   height: 100%;
   border-radius: 100%;
 }
-/*.navbar-nav {
-    flex-direction: column;
-  }r*/
-  
+.left-align {
+  text-align: left;
+}
+.white-text {
+  color: white;
+}
   .navbar-nav .nav-item {
     width: 100%; /* Ajustez la largeur selon vos besoins */
     height:100%;
@@ -131,6 +133,12 @@ div.gameDisplay img{
   }
   .text {
     margin-left: 10px; /* Ajoute une marge à gauche du texte */
+}
+.link-pink {
+  color: rgb(255, 192, 203);
+}
+.justify-text {
+  text-align: justify !important;
 }
 /*.colonne-gauche {
   float: left;

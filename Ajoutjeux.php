@@ -14,12 +14,12 @@ if (!isset($_SESSION['nomjoueur'])) {
 <div class="displayAdmin">
 <div class="row ">    
         </div>
-<h2>Adding a game </h2>
+
 <form  method="POST" action="tt_ajoutjeux.php" enctype="multipart/form-data">
     <div class="container">
     <div class="row my-3">
         <div class="row">
-
+        <h3 class="white-text">Adding a game </h3>
             <div class="col-md-6">
                 <label for="nomjeux" class="form-label">Nom de jeux</label>
                 <input type="text" class="form-control " id="nomjeux" name="nomjeux" placeholder="Nom du jeux..." required>
@@ -32,9 +32,10 @@ if (!isset($_SESSION['nomjoueur'])) {
             </div>
 
         </div>
-        <div class="row ">    
-        </div>
-
+        
+        <div class="row my-3">
+             
+             </div>
         <div class="row">
 
             <div class="col-md-6">
@@ -48,8 +49,10 @@ if (!isset($_SESSION['nomjoueur'])) {
                 
             </div>
         </div>
-        <div class="row ">    
-        </div>
+        
+        <div class="row my-3">
+             
+             </div>
 
         <div class="row">
 
@@ -59,12 +62,14 @@ if (!isset($_SESSION['nomjoueur'])) {
             </div>  
 
         </div>
-             <div class="row"> 
+             
+             <div class="row my-3">
+             
              </div>
 
         <div class="row">
             <div class="d-grid gap-2 d-md-block">
-                <button class="btn btn-outline-primary" type="submit">Ajouter</button>
+                <button class="btn btn-outline-light" type="submit">Ajouter</button>
             </div>  
         </div>
 

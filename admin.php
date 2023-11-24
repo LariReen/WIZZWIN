@@ -24,15 +24,12 @@ if (!isset($_SESSION['nomjoueur'])) {
 ?>
 <div class="displayAdmin">
 
-         <h2 class="text-center">Administrator</h2>
+         <h3 class="text-center white-text">Administrator</h3>
          <div class="container">
-         <div class="row my-3">
-             
-             </div>
+        
     <div class="row my-3 text-center">
         <div class="row">
-            <div class="row my-3"> 
-             </div>
+        
              <div class="row my-3"> 
              </div>
 
@@ -78,6 +75,10 @@ if (!isset($_SESSION['nomjoueur'])) {
             <button type="button" class="btn btn-outline-light"><a href="creeradmin.php">Créer adminstrateur</a></button>  
             </div>
 
+        </div>
+        <div class="row my-3"> 
+             </div>
+        <div class="row my-3"> 
         </div>
 
         </div>

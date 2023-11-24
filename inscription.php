@@ -10,9 +10,17 @@
 <div class="container">
 <h1>Sign up</h1>
 <br>
+
 <form  method="POST" action="tt_inscription.php">
     <div class="container">
     <div class="row">
+    <div class="row my-3">
+             
+      </div>
+    <h3 class="white-text">Sign up</h3>
+    <div class="row my-3">
+             
+             </div>
         <div class="col-md-6">
             <label for="nom" class="form-label">Surname</label>
             <input type="text" class="form-control " id="nom" name="nom" placeholder="Your surname..." required>
@@ -22,6 +30,9 @@
             <input type="text" class="form-control " id="prenom" name="prenom" placeholder="Your name..." required>
         </div>
         </div>
+        <div class="row my-3">
+             
+             </div>
         <div class="row">
         <div class="col-md-6">
             <label for="email" class="form-label">Email</label>
@@ -36,8 +47,11 @@
 
         </div>
         </div>
+             <div class="row my-3">
+             
+             </div>
         <div class="row ">
-        <div class="d-grid gap-2 d-md-block"><button class="btn btn-outline-primary" type="submit">Submit</button></div>   
+        <div class="d-grid gap-2 d-md-block"><button class="btn btn-outline-light" type="submit">Submit</button></div>   
         </div>
         <div class="row">
             <br>

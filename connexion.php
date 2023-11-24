@@ -21,11 +21,16 @@ session_start();
         unset($_SESSION['message']);
     }
     ?>
-   
+    
 <form  method="POST" action="tt_connexion.php">
     <div class="container">
+    <h3 class="white-text">Connexion</h3>
     <div class="row my-3">
+  
         <div class="row">
+        <div class="row my-3">
+             
+             </div>
         <div class="col-md-6">
             <label for="email" class="form-label">Email</label>
             <input type="email" class="form-control " id="email" name="email" placeholder="Votre email..." required>
@@ -37,8 +42,10 @@ session_start();
         </div>
         <br>
         <div class="row my-3">
-        <br><br>
-        <div class="d-grid gap-2 d-md-block"><br><button class="btn btn-outline-primary" type="submit">Connexion</button></div>   
+             
+             </div>
+        <div class="row my-3">
+        <div class="d-grid gap-2 d-md-block"><button class="btn btn-outline-light" type="submit">Connexion</button></div>   
         </div>
     </div>
 </form>
