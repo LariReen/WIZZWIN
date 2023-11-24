@@ -5,6 +5,7 @@
 
 ?>
 <div class="displayAdmin">
+  <div class="container">
 <div class="row">    
         </div>
 <h2>List of administrator</h2>
@@ -50,6 +51,7 @@ $ps->execute();
 
 </table>
 
+</div>
 </div>
 <?php
     include 'footer.inc.php';
