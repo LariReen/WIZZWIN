@@ -21,5 +21,5 @@ $_SESSION['message'] = "Ajout réussi.";
 header("location:listjeux.php");
 } else {  $_SESSION['message'] = "Problème Ajout.";
 
-    header("location:listjeux.php");  }
+    header("location:admin.php");  }
 ?>

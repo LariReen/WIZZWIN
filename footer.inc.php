@@ -13,9 +13,9 @@
                 <div class="col-md-3">
                     <h4 class="left-align">Everything/Nothing</h4>
                     <ul class="left-align social-icons">
-                        <li><a href="#"class="link-pink">Conficiendality politics and cookies</a></li>
-                        <li><a href="#"class="link-pink">General conditions</a></li>
-                        <li><a href="#"class="link-pink">English/French</a></li>
+                        <li><a href="#" class="link-pink">Conficiendality politics and cookies</a></li>
+                        <li><a href="#" class="link-pink">General conditions</a></li>
+                        <li><a href="#" class="link-pink">English/French</a></li>
                     </ul>
                 </div>
                 <div class="col-md-3">

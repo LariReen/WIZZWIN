@@ -13,23 +13,26 @@ session_start();
   
     <form  method="POST" action="tt_supprimejeux.php" enctype="multipart/form-data">
             <div class="row">
+              <div class="col-10">
                     <label for="idjeux" class="form-label">Indice du jeu à supprimer </label>
                     <input type="text" class="form-control " id="idjeux" name="idjeux" placeholder="ID du jeux..." required>
                 <br>  
             </div>
-    </form>
-  <div class="d-grid gap-2 d-md-block">
-    <br>
-    
+            <div class="col-2">
+                <br>
+                <div class="d-grid gap-2 d-md-block">
                   <button class="btn btn-outline-light" type="submit" id="supprimer" name="supprimer">Supprimer</button>
-                  </div>
-    </div> 
-
-
-
+                </div>
+            </div> 
+    </form>
+ 
+</div>
+<br>
+<br>
 <br>
 
 <div class="container">
+<br><br>
 <table class="table">
   <thead>
     <tr>
@@ -76,15 +79,15 @@ if ($stmt = $mysqli->prepare("SELECT * FROM jeux WHERE 1"))
 ?>
 </tbody>
 </table>
+<br><br><br><br><br><br><br>
 </div>
+
+<br><br><br><br><br><br>
 </div>
 </div>
 </body>
 
 <?php
     include 'footer.inc.php';
-    
+    
 ?>
-
-
-
