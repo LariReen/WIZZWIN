@@ -8,7 +8,7 @@
 
 <div class="backgroundInscription">
 <div class="container">
-<h1>Sign up</h1>
+
 <br>
 
 <form  method="POST" action="tt_inscription.php">
@@ -18,6 +18,7 @@
              
       </div>
     <h3 class="white-text">Sign up</h3>
+    <h4 class="white-text">Embark on a WIZZtastic journey where every click is a chance to win excitement</h4>
     <div class="row my-3">
              
              </div>

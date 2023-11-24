@@ -10,9 +10,7 @@
 <h2>List of administrator</h2>
 <div class="row ">    
         </div>
-<video autoplay muted loop id="video-background">
-        <source src="./img/backvideo.mp4" type="video/mp4">
-    </video>
+
 
 
 <table class="table table-blue table-active table-hover">

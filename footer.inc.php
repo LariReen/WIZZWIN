@@ -3,33 +3,27 @@
             <div class="row text-center">
                 <div class="col-md-3">
                     <img src="img/W.png" alt="impossible de telecharger l'image">
-                    </div>
-                <div class="col-md-3" style="margin-bottom: 20px;">
+                </div>
+                <div class="col-md-3" >
                     <h4 class="left-align">Contacts</h4>
                     <p class="left-align" style="color: pink;">Adresse : Avenu Galilée,76800 Saint Etienne du Rouvray</p>
                     <p class="left-align" style="color: pink;">Email : contact@groupe-esigelec.org.com</p>
                     <p class="left-align" style="color: pink;">Téléphone : +01 234 567 890</p>
                 </div>
-                <div class="col-md-3" style="margin-bottom: 20px;">
-                    <h4 class="left-align">Tout/Rien</h4>
-                    <ul class="left-align social-icons">
-                        <li><a href="#"class="link-pink">Politique de confidentialité et cookies</a></li>
-                        <li><a href="#"class="link-pink">Conditions générales</a></li>
-                        <li><a href="#"class="link-pink"> Français/Anglais</a></li>
                 <div class="col-md-3">
-                    <h3 class="text-center">Follow Us</h3>
-                    <ul class="social-icons">
-                        <li><a href="#"> Instagram</a></li>
-                        <li><a href="#">Twitter</a></li>
-                        <li><a href="#"> TikTok</a></li>
+                    <h4 class="left-align">Everything/Nothing</h4>
+                    <ul class="left-align social-icons">
+                        <li><a href="#"class="link-pink">Conficiendality politics and cookies</a></li>
+                        <li><a href="#"class="link-pink">General conditions</a></li>
+                        <li><a href="#"class="link-pink">English/French</a></li>
                     </ul>
                 </div>
-                <div class="col-md-3" style="margin-bottom: 20px;">
-                    <h4 class="left-align">Suivez-nous</h4>
-                    <ul class="left-align social-icons">
-                        <li><a href="#"class="link-pink"> Instagram</a></li>
-                        <li><a href="#"class="link-pink">Twitter</a></li>
-                        <li><a href="#"class="link-pink"> TikTok</a></li>
+                <div class="col-md-3">
+                    <h3 class="left-align">Follow Us</h3>
+                    <ul class="social-icons left-align">
+                        <li><a href="#" class="link-pink"> Instagram</a></li>
+                        <li><a href="#" class="link-pink">Twitter</a></li>
+                        <li><a href="#" class="link-pink"> TikTok</a></li>
                     </ul>
                 </div>
             </div>

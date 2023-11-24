@@ -8,9 +8,7 @@ session_start();
 <div class="displayConnexion">
  <div class="container">
 
-<h1>Log in</h1>
-<br>
-<h4>Embark on a WIZZtastic journey where every click is a chance to win excitement</h4>
+
 <br><br>
 <?php
     if(isset($_SESSION['message'])) {
@@ -24,7 +22,7 @@ session_start();
     
 <form  method="POST" action="tt_connexion.php">
     <div class="container">
-    <h3 class="white-text">Connexion</h3>
+    <h3 class="white-text">Log in</h3>
     <div class="row my-3">
   
         <div class="row">

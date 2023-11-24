@@ -11,7 +11,7 @@
                 </ul>
                 <ul class="navbar-nav">
                     <li class="nav-item">
-                        <a class="nav-link" href="inscription.php">Sign in</a>
+                        <a class="nav-link" href="inscription.php">Sign up</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="connexion.php">Log in</a>

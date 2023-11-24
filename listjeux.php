@@ -7,7 +7,10 @@
 ?>
 
 <div class="displayAdmin">
-    <h3 class="white-text">List of gaming</h3>
+    <div class="container">
+    <h3 class="white-text">List of Games</h3>
+    <br>
+    <br>
     <div id="carouselExample" class="carousel slide" data-ride="carousel">
         <div class="carousel-inner">
             <?php
@@ -19,11 +22,12 @@
             $firstItem = true;
 
             while ($row = $ps->fetch()) {
+                
                 echo '<div class="carousel-item' . ($firstItem ? ' active' : '') . '">';
                 echo '<div class="mx-auto">';
                 echo '<div class="row">';
                 echo '<div class="col-md-6">';
-                echo '<div class="game-info">';
+                echo '<div class="game-info text-center">';
                 echo 'ID: ' . $row['ID_JEUX'] . '<br>';
                 echo 'Nom: ' . $row['NOM_JEUX'] . '<br>';
                 echo 'Description: ' . $row['DESCRIPTION'] . '<br>';
@@ -53,6 +57,10 @@
             <span class="sr-only">Next</span>
         </a>
     </div>
+    <br>
+    <br>
+    <br>
+    <br>
 </div>
 
     </div>

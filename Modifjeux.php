@@ -13,7 +13,7 @@ if (!isset($_SESSION['nomjoueur'])) {
 <div class="displayAdmin">
 <form  method="POST" action="tt_modifjeux.php" enctype="multipart/form-data">
     <div class="container">
-    <h3 class="white-text">Modifying a game </h3>
+    <h3 class="white-text">Modification of a game </h3>
     <div class="row my-3">   
         <div class="row">
             <div class="col-md-6">

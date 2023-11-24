@@ -34,11 +34,11 @@ if (!isset($_SESSION['nomjoueur'])) {
              </div>
 
             <div class="col-md-6">
-            <button type="button" class="btn btn-outline-light"><a href="Ajoutjeux.php">Ajouter un jeu</a></button>
+            <button type="button" class="btn btn-outline-light"><a href="Ajoutjeux.php" class="link-pink">Add a game</a></button>
             </div>
             
              <div class="col-md-6">
-             <button type="button" class="btn btn-outline-light"><a href="Modifjeux.php">Modifier un jeu</a></button>  
+             <button type="button" class="btn btn-outline-light"><a href="Modifjeux.php" class="link-pink">Modify a game</a></button>  
              </div>
     
 
@@ -51,11 +51,11 @@ if (!isset($_SESSION['nomjoueur'])) {
         <div class="row">
 
             <div class="col-md-6">
-             <button type="button" class="btn btn-outline-light"><a href="Supprimejeux.php">Supprimer un jeu</a></button>  
+             <button type="button" class="btn btn-outline-light"><a href="Supprimejeux.php" class="link-pink">Delete a game</a></button>  
             </div>
 
             <div class="col-md-6">
-            <button type="button" class="btn btn-outline-light"><a href="listjeux.php">Liste des jeux</a></button>
+            <button type="button" class="btn btn-outline-light"><a href="listjeux.php" class="link-pink">List of games</a></button>
             </div>
     
         </div>
@@ -68,11 +68,11 @@ if (!isset($_SESSION['nomjoueur'])) {
         <div class="row">
 
             <div class="col-md-6">
-            <button type="button" class="btn btn-outline-light"><a href="Ajoutjeux.php">Créer un créneau</a></button> 
+            <button type="button" class="btn btn-outline-light"><a href="Ajoutjeux.php" class="link-pink">Create a play</a></button> 
             </div>  
            
             <div class="col-md-6">
-            <button type="button" class="btn btn-outline-light"><a href="creeradmin.php">Créer adminstrateur</a></button>  
+            <button type="button" class="btn btn-outline-light"><a href="creeradmin.php" class="link-pink">Create an admin</a></button>  
             </div>
 
         </div>

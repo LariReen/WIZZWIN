@@ -19,7 +19,7 @@ if (!isset($_SESSION['nomjoueur'])) {
     <div class="container">
     <div class="row my-3">
         <div class="row">
-        <h3 class="white-text">Adding a game </h3>
+        <h3 class="white-text">Add a game</h3>
             <div class="col-md-6">
                 <label for="nomjeux" class="form-label">Nom de jeux</label>
                 <input type="text" class="form-control " id="nomjeux" name="nomjeux" placeholder="Nom du jeux..." required>
