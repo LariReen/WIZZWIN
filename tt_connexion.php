@@ -6,7 +6,7 @@
   $email =  htmlentities($_POST['email']);
   $password = htmlentities($_POST['password']);
   $_SESSION['nomjoueur'];
- $_SESSION['email'];
+  $_SESSION['email'];
 
 
   // Connexion :

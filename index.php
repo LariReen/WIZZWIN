@@ -14,7 +14,7 @@
         unset($_SESSION['message']);
      }
  ?>
-
+ 
 <div class="row">
         <div class="row" >
            <div class="WelcomeMessage">
@@ -36,7 +36,7 @@
            </div>
            <div class="col-3">
              <div class="row">
-                <img src="https://vulcan.dl.playstation.net/ap/rnd/202111/1601/Zgk7R0ZUTp64t9JqNQIEsLYC.png" alt="error in generating image" >
+                <img src="https://www.maxiapple.com/wp-content/uploads/2023/04/monopoly-go-jeu-mobile-ios-android-iphone-ipad-gratuit-01.jpg" alt="error in generating image" >
               </div>
               <div class="row">
                 <br>
@@ -74,18 +74,17 @@
       <br>
         <div class="row">
           <div class="col">
-          <p> 
-          "Notre vision chez [Nom de votre entreprise] transcende le simple concept de divertissement en ligne. Nous aspirons à créer un univers de jeu dynamique et captivant qui transcende les attentes traditionnelles. Chez [Nom de votre entreprise], nous sommes motivés par l'idée de repousser constamment les frontières de l'innovation, de fournir à nos joueurs une expérience exceptionnelle qui va au-delà de l'ordinaire. C'est dans cette quête continue que notre ambition prend forme, avec le développement imminent d'une application dédiée, conçue pour transformer la façon dont vous vivez le jeu en ligne.      
-          L'objectif de notre application va bien au-delà d'être une simple extension de notre site web. Nous envisageons un compagnon virtuel qui vous accompagnera partout, apportant une accessibilité sans précédent, une jouabilité intuitive et des fonctionnalités exclusives à portée de main. Cette application incarnera notre engagement envers l'innovation,      
-        </p>
-          </div>
-          <div class="col">
-            <p>
-            offrant une expérience de jeu immersive et personnalisée qui évolue avec les besoins de notre communauté passionnée. Notre équipe dévouée travaille sans relâche pour créer une application qui reflète non seulement notre amour pour les jeux de société, mais aussi notre engagement envers la satisfaction de nos utilisateurs. 
-            <br>
-            <br>
-            Joignez-vous à nous dans cette aventure où l'innovation, la convivialité et le plaisir se conjuguent pour créer une nouvelle ère de divertissement ludique. Chez [Nom de votre entreprise], nous ne nous contentons pas de redéfinir les règles du jeu, nous créons un nouveau chapitre de l'histoire du divertissement en ligne, et nous sommes ravis de vous y inviter."
+          <p class="justify-text"> 
+          "Chez WIZZWIN, notre vision va au-delà de simplement créer une plateforme de jeu en ligne. En tant qu'étudiantes passionnées, nous aspirons à bâtir un univers de jeu dynamique et engageant qui va bien au-delà des attentes habituelles. Notre motivation découle de l'idée constante de repousser les limites de l'innovation, offrant à nos membres une expérience exceptionnelle qui transcende l'ordinaire. Nous sommes sur le point de développer une application dédiée, conçue pour révolutionner la façon dont vous vivez le jeu en ligne. Cette application n'est pas simplement une extension de notre site web, mais plutôt un compagnon virtuel qui vous suivra partout, offrant une accessibilité sans précédent, une jouabilité intuitive et des fonctionnalités exclusives à portée de main. Elle incarnera notre engagement envers l'innovation, offrant une
           </p>
+        </div>
+          <div class="col">
+            <p class="justify-text">
+            expérience de jeu immersive et personnalisée qui évolue avec les besoins de notre communauté étudiante passionnée. offrant une expérience de jeu immersive et personnalisée qui évolue avec les besoins de notre communauté étudiante passionnée. Notre équipe dévouée travaille sans relâche pour créer une application qui reflète non seulement notre amour pour les jeux, mais aussi notre engagement envers la satisfaction de nos utilisateurs.
+            <br>
+            <br>
+            Joignez-vous à nous dans cette aventure où l'innovation, la convivialité et le plaisir se conjuguent pour créer une nouvelle ère de divertissement ludique. Chez WIZZWIN, nous ne nous contentons pas de redéfinir les règles du jeu, nous créons un nouveau chapitre de l'histoire du divertissement en ligne, et nous sommes ravis de vous y inviter."
+            </p>
           </div>
         </div>
       

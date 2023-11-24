@@ -1,6 +1,6 @@
 <?php 
   session_start(); // Pour les messages
-
+  require_once 'param.inc.php';
 $nom=$_POST['nomjeux'];
 $description=$_POST['descriptionjeux'];
 $regle=$_FILES['userfileregle']['name'];

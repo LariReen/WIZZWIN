@@ -9,8 +9,10 @@
 <div class="row">
             <div class="col-md-4">
                 <div class="team-member">
-                    <img src="./img/membre1.jpg" alt="Membre 1">
-                    <h4>Cerise FAFOUMI</h4>
+                <div class="row my-3">    
+                </div>
+                    <img src="./img/Cerise3.png" alt="Cerise">
+                    <h6>Cerise FAFOUMI</h6>
                 </div>
             </div>
 
@@ -24,8 +26,10 @@
 
             <div class="col-md-4">
                 <div class="team-member">
-                    <img src="./img/membres2.jpg" alt="Membre 2">
-                    <h4>Larissa METEHOUE</h4>
+                <div class="row my-3">    
+                </div>
+                    <img src="./img/Larissa1.png" alt="Larissa">
+                    <h6>Larissa METEHOUE</h6>
                 </div>
             </div>
     

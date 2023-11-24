@@ -11,13 +11,11 @@ if (!isset($_SESSION['nomjoueur'])) {
     include 'menufoncadmin.php';
 ?>
 <div class="displayAdmin">
-<h2>Modifying a game </h2>
-
-<form  method="POST" action="tt_jeux.php" enctype="multipart/form-data">
+<form  method="POST" action="tt_modifjeux.php" enctype="multipart/form-data">
     <div class="container">
-    <div class="row my-3">
+    <h3 class="white-text">Modifying a game </h3>
+    <div class="row my-3">   
         <div class="row">
-
             <div class="col-md-6">
                 <label for="nomjeux" class="form-label">Nom de jeux</label>
                 <input type="text" class="form-control " id="nomjeux" name="nomjeux" placeholder="Nom du jeux..." required>
@@ -67,7 +65,7 @@ if (!isset($_SESSION['nomjoueur'])) {
 
         <div class="row my-3">
             <div class="d-grid gap-2 d-md-block">
-                <button class="btn btn-outline-primary" type="submit">Modifier</button>
+                <button class="btn btn-outline-light" type="submit">Modifier</button>
             </div>  
         </div>
 
